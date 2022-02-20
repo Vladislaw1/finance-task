@@ -1,0 +1,24 @@
+@import "../../../shared/styles/base";
+@import "../../../shared/styles/variables";
+
+.ticker_list_item{
+  @include flex(space-around,center);
+
+  background: $header_bg_color;
+  color: $main_color_text;
+  border: 1px solid $main_color_text;
+  border-radius: 20px;
+}
+.td{
+  padding: 15px;
+}
+.up{
+  padding: 10px;
+  text-align: center;
+  background: $price_up_bg_color;
+}
+.down{
+  padding: 3px;
+  text-align: center;
+  background: $price_down_bg_color;
+}

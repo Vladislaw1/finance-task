@@ -1,0 +1,14 @@
+@import "../../../shared/styles/base";
+@import "../../../shared/styles/variables";
+
+.header{
+  @include flex(space-between,center);
+
+  background: $header_bg_color;
+  padding: 10px 20px;
+
+  &_caption{
+    color: $main_color_text;
+    margin: 0;
+  }
+}
